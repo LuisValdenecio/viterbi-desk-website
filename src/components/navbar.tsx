@@ -92,8 +92,12 @@ export function Navbar({ banner }: { banner?: React.ReactNode }) {
               </div>
             )}
           </div>
-          <DesktopNav />
-          <MobileNavButton />
+          {
+            /*
+            <DesktopNav />
+            <MobileNavButton />
+            */
+          }
         </PlusGridRow>
       </PlusGrid>
       <MobileNav />
